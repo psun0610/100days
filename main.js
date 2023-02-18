@@ -2,7 +2,7 @@ const dDay = document.querySelector("#d-day");
 const remainTime = document.querySelector("#remain-time");
 
 function diffDay() {
-  const compareTime = new Date(2023,3,3);
+  const compareTime = new Date(Date.KST(2023,3,3));
   const todayTime = new Date();
   const diff = compareTime - todayTime;
   // 여기서 Date() 객체를 사용할 때 console.log를 찍어보면
