@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  text-align: center;
+}
+
+body {
+  background: rgba(214, 214, 214, 0.203);
+}
+.container {
+  margin-top: 35vw;
+}
+.heart {
+  color:rgba(220, 187, 227, 0.861);
+  font-size: 18px;
+}
