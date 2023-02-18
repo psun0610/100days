@@ -24,13 +24,14 @@ body {
 }
 h2 {
   margin: 10px;
-  color: rgb(86, 82, 86);
 }
 #d-day {
   font-size: 30px;
+  color: rgb(86, 82, 86);
 }
 #remain-time {
   font-size: 22px;
+  color: rgba(86, 82, 86, 0.886);
 }
 .time-wrap {
   margin: 10px 0;
