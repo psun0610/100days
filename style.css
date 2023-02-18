@@ -1,12 +1,10 @@
-@font-face {
-    font-family: 'LeferiPoint-WhiteObliqueA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
 }
 
 * {
-  font-family: 'LeferiPoint-WhiteObliqueA';
+  font-family: 'bitbit';
   text-align: center;
 }
 
@@ -14,9 +12,26 @@ body {
   background: rgba(214, 214, 214, 0.203);
 }
 .container {
-  margin-top: 35vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .heart {
-  color:rgba(220, 187, 227, 0.861);
+  color:rgba(200, 162, 208, 0.861);
   font-size: 18px;
+}
+h2 {
+  margin: 10px;
+  color: rgb(86, 82, 86);
+}
+#d-day {
+  font-size: 30px;
+}
+#remain-time {
+  font-size: 22px;
+}
+.time-wrap {
+  margin: 10px 0;
 }
